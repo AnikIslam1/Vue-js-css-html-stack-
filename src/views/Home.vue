@@ -1,18 +1,21 @@
 <template>
   <div class="Home">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <HomeFrame />
+      
+     <User_Profile />
   </div>
 </template>
 
 <script>
 
-import HomeFrame from '@/components/HomeFrame.vue'
+
+import User_Profile from '@/components/User_Profile.vue'
 
 export default {
   name: 'Home',
     components: {
-      HomeFrame
+      
+      User_Profile
     }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
 
-   <div id="app">
+   <div id="Home">
         
         <!-- 
         
@@ -17,7 +17,8 @@
   
      <div id="nav">
                 <router-link to="/Home">Home</router-link> |
-                <router-link to="/Login">Sign out</router-link> 
+                
+
                 
         </div>
       <div class="alert alert-success" role="alert">
@@ -34,9 +35,9 @@
 
 
    </div>
-        
-  
-    
+
+
+
 
     
 
@@ -44,11 +45,13 @@
 
 <script>
 
-
-
-export default {
     
-}
+    export default {
+       
+        components: {
+            
+        }
+    }
 
 </script>
 
